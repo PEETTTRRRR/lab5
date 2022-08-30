@@ -38,7 +38,7 @@ int main(void) {
 
     auto_switch(matrix[0], matrix[1]);  // swap the first two lines for example
 
-    cout << "|before swap the first two lines for example: ";
+    cout << "|after swap the first two lines for example: ";
     cout << "\n";
     for (int i = 0; i < row; i++) {
         for (int b = 0; b < col; b++)
@@ -62,7 +62,7 @@ int main(void) {
 
     }
 
-    cout << "|before sorting: ";
+    cout << "|after sorting: ";
     cout << "\n";
     for (int i = 0; i < row; i++) {
         for (int b = 0; b < col; b++)
